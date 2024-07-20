@@ -12,7 +12,7 @@ public class ChatboxClient {
 
         Duplexer duplexer = new Duplexer(socket);
 
-        System.out.print("Enter your name to connect to tinychat: ");
+        System.out.print("Enter your name to connect to chatbox: ");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
         duplexer.send(name);
