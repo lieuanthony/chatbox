@@ -47,4 +47,4 @@ java ClientMain
 Contributions are welcome! Feel free to submit pull requests or report issues in the repository.
 
 ## License
-This project is licensed under the [MIT License](https://www.mit.edu/~amini/LICENSE.md).
+This project is licensed under the [MIT License](https://raw.githubusercontent.com/lieuanthony/chatbox/main/LICENSE).
