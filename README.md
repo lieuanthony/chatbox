@@ -16,31 +16,31 @@ messages. It's designed to facilitate instant messaging between multiple clients
 ## Installation
 1. Clone the repository to your local machine.
 
-'''bash
-git clone <repository_url>
-'''
+```bash
+git clone https://github.com/lieuanthony/chatbox
+```
 
 2. Compile the Java files.
 
-'''bash
+```bash
 javac *.java
-'''
+```
 
 3. Start the server.
 
-'''bash
+```bash
 java ChatboxServer
-'''
+```
 
 4. Launch clients and connect to the server.
 
-'''bash
-java ClientMain
-'''
+```bash
+java ChatboxClient
+```
 
 ## Usage
-1. Server: Run ServerMain to start the server. Specify a port number if necessary.
-2. Client: Run ClientMain to launch a client instance. Enter the server's IP address and port number to connect.
+1. Server: Run ChatboxServer to start the server. Specify a port number if necessary.
+2. Client: Run ChatboxClient to launch a client instance. Enter the server's IP address and port number to connect.
 3. Messaging: Once connected, clients can send messages that are relayed in real-time to all connected clients.
 
 ## Contributing
